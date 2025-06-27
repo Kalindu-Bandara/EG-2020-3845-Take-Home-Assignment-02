@@ -75,7 +75,7 @@ axes[2].set_title(f"Otsu Threshold Result (t={otsu_thresh})")
 axes[2].axis('off')
 
 plt.tight_layout()
-plt.savefig("Results/task1_larger_shapes.png", dpi=300)
+plt.savefig("Results/task1.png", dpi=300)
 plt.show()
 
 print("Task completed")
